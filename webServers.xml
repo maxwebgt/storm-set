@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf1702ba-f222-4f08-a056-fb7030df1cb9" name="dev-mtv-host" url="http://172.16.172.131">
+        <fileTransfer host="172.16.172.131" port="22" rootFolder="/var/www/verstka_dev.motivi.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="18c094bb-b8d8-49af-a056-417813542d3e" name="trv-server" url="http://172.16.172.131">
+        <fileTransfer host="172.16.172.131" port="22" rootFolder="/var/www/verstka_1.tervolina.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5aa09815-eea5-4905-9a2c-4c2eaaead5c1" name="mustang server" url="http://172.16.172.131">
+        <fileTransfer host="172.16.172.131" port="22" rootFolder="/var/www/verstka_1.mustang.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
