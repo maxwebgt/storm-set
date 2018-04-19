@@ -25,6 +25,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="3e214932-497e-4852-b74c-9c3b0e9706b0" name="salomander-server" url="http://172.16.172.131">
+        <fileTransfer host="172.16.172.131" port="22" rootFolder="/var/www/verstka_1.salamander.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
