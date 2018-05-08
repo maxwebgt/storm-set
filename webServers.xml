@@ -33,6 +33,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="c94c19cb-7e71-442a-a8a7-7e717789fc22" name="vplanete-server" url="http://vplanete.ru">
+        <fileTransfer host="ftp-154061.srv.hoster.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
