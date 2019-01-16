@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aad6be59-5252-4535-81c1-429b682a36df" name="mavi" url="http://verstka_1.mavi.ru">
+        <fileTransfer host="verstka_1.mavi.ru" port="22" rootFolder="/var/www/verstka_1.mavi.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
