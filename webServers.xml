@@ -9,6 +9,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="094dc36a-4f76-43a9-bf00-9f769b2d2b25" name="karen-server" url="http://verstka_1.karen-millen.ru">
+        <fileTransfer host="verstka_1.karen-millen.ru" port="22" rootFolder="/var/www/verstka_1.karen-millen.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
