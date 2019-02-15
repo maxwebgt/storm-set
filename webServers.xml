@@ -17,6 +17,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="85cbb7bc-51f6-4b69-9f15-eac66fb383ad" name="HGL-server" url="http://172.16.172.131">
+        <fileTransfer host="172.16.172.131" port="22" rootFolder="/var/www/verstka_1.hogl.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
