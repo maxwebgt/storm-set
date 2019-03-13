@@ -33,6 +33,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="bdb768de-8549-4fec-8325-09bca4cabd82" name="chicco" url="http://172.16.172.137">
+        <fileTransfer host="172.16.172.137" port="22" rootFolder="/var/www/test.chicco.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
