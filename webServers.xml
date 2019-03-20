@@ -41,6 +41,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="e92a9513-dbb7-4eeb-b9fe-12a8929f23f7" name="mustang-server" url="http://172.16.172.131">
+        <fileTransfer host="172.16.172.131" port="22" rootFolder="/var/www/verstka_1.mustang.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
