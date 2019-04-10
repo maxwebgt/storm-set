@@ -49,6 +49,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="765d54f5-d059-40c2-8b59-642d497e7da1" name="tervolina-server" url="http://172.16.172.131">
+        <fileTransfer host="172.16.172.131" port="22" rootFolder="/var/www/verstka_1.tervolina.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
